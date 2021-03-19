@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">week4</string>
+    <string-array name="list">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>
