@@ -28,6 +28,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:drawableLeft="@drawable/ic_baseline_login_24"
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,14 +43,16 @@
         app:layout_constraintTop_toBottomOf="@+id/forgot" />
 
     <EditText
+        android:drawableLeft="@drawable/ic_baseline_person_24"
         android:id="@+id/txt_user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
+        android:drawablePadding="15dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/edittext"
         android:hint="Tên đăng nhập"
-        android:paddingHorizontal="20dp"
+        android:paddingHorizontal="10dp"
         android:paddingVertical="10dp"
         android:textColor="@color/textedit"
         android:textColorHint="#99ffffff"
@@ -65,7 +68,9 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/edittext"
         android:hint="Mật khẩu"
-        android:paddingHorizontal="20dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:paddingHorizontal="10dp"
         android:paddingVertical="10dp"
         android:textColor="@color/textedit"
         android:textColorHint="#99ffffff"
